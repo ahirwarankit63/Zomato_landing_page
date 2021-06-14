@@ -77,12 +77,37 @@ body{
 
 }
 
-.food__menu__card {
-    width: 100%;
+/* Menu Styles */
+
+.explore__menu__container {
+    margin-top: 50px;
+}
+
+.Explore__menu__text {
+    font-size: 30px;
+    color: #1d3557;
+    margin: 10px 0px;
+    text-align: center;
 }
 
 .food__image {
     width: 100%;
+    border-radius: 10px;
+}
+
+.food__menu__card {
+    width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.food__menu__card__description {
+    padding: 20px;
+}
+.explore__menu__view__more {
+    display: flex;
+    justify-content: center;
 }
 
 @media (min-width: 768px) {
