@@ -20,7 +20,7 @@ body{
     padding: 12px;
     border: none;
     border-radius: 6px;
-    
+    cursor: pointer;
 }
 
 .container{
@@ -55,6 +55,7 @@ body{
     padding: 12px;
     border: none;
     border-radius: 6px;
+    
 }
 
 .hero__coontainer{
@@ -69,6 +70,21 @@ body{
     width:100%
 }
 
+.hero__text {
+    font-size: 30px;
+    color: #1d3557;
+    margin: 10px 0px;
+
+}
+
+.food__menu__card {
+    width: 100%;
+}
+
+.food__image {
+    width: 100%;
+}
+
 @media (min-width: 768px) {
     .navbar {
         justify-content: space-between;
@@ -80,7 +96,7 @@ body{
     
 
     .button__primary{
-        padding: 20px;
+        padding: 13px 20px;
         font-size: 20px;
     }
 
@@ -91,24 +107,29 @@ body{
         align-items: center;
         gap: 10px;
     }
+
+
 }
 
 
 @media (min-width: 1020px){
 
     .container {
-        max-width: 1010px;
+        max-width: 1020px;
     }
 
+    
+    
 
-    .hero__image__container {
-        width: 500px;
-        height: 500px;
+    .hero__text{
+        font-size: 40px;
     }
 
     
 
 }
 @media (min-width: 1400px){
-
+    .container{
+        max-width: 1250px;
+    }
 }
